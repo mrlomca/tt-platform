@@ -89,7 +89,7 @@ export default function App() {
         </div>
 
         {/* Scrollable Content */}
-        <div className="overflow-y-auto h-full max-h-[70vh] pb-8 no-scrollbar">
+        <div className="overflow-y-auto h-full max-h-[70vh] pb-10 no-scrollbar">
           
           {/* Section 1 */}
           <div className="px-4 pt-2 pb-4">
@@ -113,7 +113,7 @@ export default function App() {
           </div>
 
           {/* Section 2 */}
-          <div className="px-4 pb-4">
+          <div className="px-4 pb-8">
              
              {/* Select video language */}
              <div className="flex items-center py-4 active:bg-gray-50 transition-colors">
@@ -197,6 +197,9 @@ export default function App() {
                  <Toggle checked={checkCopyright} onChange={setCheckCopyright} />
                </div>
              </div>
+             
+             {/* Extra spacer for safe area */}
+             <div className="h-12"></div>
 
           </div>
         </div>
