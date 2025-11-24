@@ -12,6 +12,42 @@ import {
   IconChevronRight
 } from './components/Icons';
 
+// BackgroundContent (The content behind the modal)
+const BackgroundContent = () => (
+  <div className="flex-1 flex flex-col px-4 pt-2">
+    {/* Header */}
+    <div className="flex items-center py-2">
+      <button className="p-1 -ml-2">
+        <IconChevronLeft />
+      </button>
+    </div>
+
+    {/* Content Input Area */}
+    <div className="flex mt-4 gap-4">
+      <div className="flex-1 flex flex-col gap-8 pt-2">
+        <p className="text-[15px] text-gray-800">clothes haul day</p>
+        <div className="space-y-1">
+          <p className="text-[15px] font-medium text-gray-900">#clothes #trend #explore</p>
+        </div>
+      </div>
+
+      {/* Preview Image */}
+      <div className="relative w-[110px] h-[150px] rounded-lg overflow-hidden bg-gray-100 shrink-0">
+        <img 
+          src="https://i.ibb.co/r2g4sbyG/video-cover.png" 
+          alt="Preview" 
+          className="w-full h-full object-cover opacity-90"
+        />
+        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="absolute top-2 left-2 text-white text-xs font-medium drop-shadow-md">Preview</div>
+        <div className="absolute bottom-0 left-0 right-0 h-8 bg-black/40 flex items-center justify-center backdrop-blur-[1px]">
+          <span className="text-white text-[11px] font-medium">Edit cover</span>
+        </div>
+      </div>
+    </div>
+  </div>
+);
+
 export default function App() {
   // State for toggles
   const [reuseContent, setReuseContent] = useState(true);
@@ -21,42 +57,6 @@ export default function App() {
 
   // State for bottom sheet visibility (always true for the clone view)
   const [isSheetOpen, setIsSheetOpen] = useState(true);
-
-  // BackgroundContent (The content behind the modal)
-  const BackgroundContent = () => (
-    <div className="flex-1 flex flex-col px-4 pt-2">
-      {/* Header */}
-      <div className="flex items-center py-2">
-        <button className="p-1 -ml-2">
-          <IconChevronLeft />
-        </button>
-      </div>
-
-      {/* Content Input Area */}
-      <div className="flex mt-4 gap-4">
-        <div className="flex-1 flex flex-col gap-8 pt-2">
-          <p className="text-[15px] text-gray-800">clothes haul day</p>
-          <div className="space-y-1">
-            <p className="text-[15px] font-medium text-gray-900">#clothes #trend #explore</p>
-          </div>
-        </div>
-
-        {/* Preview Image */}
-        <div className="relative w-[110px] h-[150px] rounded-lg overflow-hidden bg-gray-100 shrink-0">
-          <img 
-            src="https://i.ibb.co/r2g4sbyG/video-cover.png" 
-            alt="Preview" 
-            className="w-full h-full object-cover opacity-90"
-          />
-          <div className="absolute inset-0 bg-black/20"></div>
-          <div className="absolute top-2 left-2 text-white text-xs font-medium drop-shadow-md">Preview</div>
-          <div className="absolute bottom-0 left-0 right-0 h-8 bg-black/40 flex items-center justify-center backdrop-blur-[1px]">
-            <span className="text-white text-[11px] font-medium">Edit cover</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
 
   return (
     <div className="w-full h-full bg-white flex flex-col relative font-sans">

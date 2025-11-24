@@ -1,23 +1,34 @@
 import React from 'react';
 
 export const IconReuse = () => (
-  <img src="https://i.ibb.co/jvxm3R3W/allow-reuse-content.png" width="24" height="24" alt="Reuse" className="object-contain" />
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gray-800">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+  </svg>
 );
 
 export const IconLanguage = () => (
-  <img src="https://i.ibb.co/RpP5ZL8Y/select-video-lang.png" width="24" height="24" alt="Language" className="object-contain" />
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gray-800">
+    <circle cx="12" cy="12" r="10" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+  </svg>
 );
 
 export const IconDisclosure = () => (
-  <img src="https://i.ibb.co/cSNV1NZY/content-disclosure.png" width="24" height="24" alt="Disclosure" className="object-contain" />
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gray-800">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+  </svg>
 );
 
 export const IconAI = () => (
-  <img src="https://i.ibb.co/NnsN3Y30/ai-generated-content.png" width="24" height="24" alt="AI" className="object-contain" />
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gray-800">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 17L9 20l-1-3m5.25-13l-.75 3-1-3m0 0l-1 3m5 10.5l3-1-3-1-1-3-1 3-3 1 3 1 1 3z" />
+  </svg>
 );
 
 export const IconCopyright = () => (
-  <img src="https://i.ibb.co/KpfGn1gz/auto-check-sound.png" width="24" height="24" alt="Copyright" className="object-contain" />
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gray-800">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>
 );
 
 export const IconEarn = () => (
