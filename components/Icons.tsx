@@ -1,34 +1,43 @@
 import React from 'react';
 
 export const IconReuse = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gray-800">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-  </svg>
+  <img 
+    src="https://i.ibb.co/d0qWswXf/allow-reuse-content.png" 
+    alt="Allow reuse" 
+    className="w-6 h-6 object-contain"
+  />
 );
 
 export const IconLanguage = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gray-800">
-    <circle cx="12" cy="12" r="10" />
-    <path strokeLinecap="round" strokeLinejoin="round" d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
-  </svg>
+  <img 
+    src="https://i.ibb.co/TDJ0GSGb/select-video-lang.png" 
+    alt="Language" 
+    className="w-6 h-6 object-contain"
+  />
 );
 
 export const IconDisclosure = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gray-800">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-  </svg>
+  <img 
+    src="https://i.ibb.co/Y7DtXBQY/content-disclosure.png" 
+    alt="Disclosure" 
+    className="w-6 h-6 object-contain"
+  />
 );
 
 export const IconAI = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gray-800">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 17L9 20l-1-3m5.25-13l-.75 3-1-3m0 0l-1 3m5 10.5l3-1-3-1-1-3-1 3-3 1 3 1 1 3z" />
-  </svg>
+  <img 
+    src="https://i.ibb.co/4nGH7c67/ai-generated-content.png" 
+    alt="AI Content" 
+    className="w-6 h-6 object-contain"
+  />
 );
 
 export const IconCopyright = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-gray-800">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-  </svg>
+  <img 
+    src="https://i.ibb.co/C5SSqgXF/auto-check-sound.png" 
+    alt="Copyright" 
+    className="w-6 h-6 object-contain"
+  />
 );
 
 export const IconEarn = () => (
