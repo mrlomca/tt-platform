@@ -34,7 +34,7 @@ const BackgroundContent = () => (
       {/* Preview Image */}
       <div className="relative w-[110px] h-[150px] rounded-lg overflow-hidden bg-gray-100 shrink-0">
         <img 
-          src="https://i.ibb.co/r2g4sbyG/video-cover.png" 
+          src="https://i.imgur.com/aXWA4Ok.png" 
           alt="Preview" 
           className="w-full h-full object-cover opacity-90"
         />
@@ -155,8 +155,9 @@ export default function App() {
                  </p>
                  {watchEarn && (
                    <p className="text-[12px] leading-snug mt-1">
-                     <span className="text-cyan-500 font-medium">Balance: 827.28 Total Videos Watched: </span>
-                     <span className="text-black">89 </span>
+                     <span className="text-cyan-500 font-medium">Balance: $827.28 Total Videos Watched: </span>
+                     <span className="text-black">103 </span>
+                     <br />
                      <span className="font-bold text-black">Learn more</span>
                    </p>
                  )}
